@@ -11,9 +11,7 @@ public class Main {
         boolean vaild = false;
         String repeat;
         while (!vaild) {
-
             ArrayList<String> wordlist2 = new ArrayList<String>();
-
             Scanner in = new Scanner(System.in);
             System.out.print("Please enter word 1: ");
             String word1 = in.nextLine();
